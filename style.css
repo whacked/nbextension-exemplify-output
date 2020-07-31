@@ -1,0 +1,49 @@
+.exemplify_output-label-container {
+    position: absolute;
+    margin-left: -1em;
+    z-index: 0;
+}
+.exemplify_output-label-container:hover {
+    z-index: 1;
+}
+.exemplify_output-label {
+    opacity: 0.2;
+    background: orange;
+    font-weight: bold;
+    font-size: x-small;
+    padding: 4px;
+    border-radius: 1em;
+}
+.exemplify_output-label:hover {
+    opacity: 1.0;
+}
+
+.exemplify_output-example-output {
+    background: cornsilk;
+    margin-right: 1em;
+    width: 30%;
+    float: left;
+    overflow: auto;
+    /* note div.output_subarea has padding 0.4em */
+    margin-top: 0.4em;
+}
+.exemplify_output-example-output pre {
+    white-space: pre;
+    position: relative;
+}
+.exemplify_output-example-output pre:hover {
+    position: absolute;
+    background: cornsilk;
+    opacity: 0.9;
+}
+
+.exemplify_output-convert {
+    position: absolute;
+    right: 0.5em;
+    padding: 0.5em;
+    opacity: 0.2;
+}
+.exemplify_output-convert:hover {
+    opacity: 1.0;
+}
+

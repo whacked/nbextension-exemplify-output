@@ -1,0 +1,9 @@
+Type: Jupyter Notebook Extension
+Compatibility: 6.x
+Name: Exemplify Output
+Main: extension.js
+Icon: icon.png
+Link: README.md
+Description: Save the existing output of an existing cell into a special "Example run output" metadata setting that persists across future runs
+Parameters:
+
